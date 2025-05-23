@@ -1,5 +1,7 @@
 #include <iostream>
 
+/*ini komen halo */
+
 using namespace std;
 
 void FungsiLayanan();
