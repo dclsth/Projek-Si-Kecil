@@ -8,19 +8,24 @@ let jawabanku;
 document.getElementById("guessButton").onclick = function(){
 jawabanku = document.getElementById("jawabanku").value;
 console.log(jawabanku);
-}
 
-while (jawabanku != jawaban) {
-    percobaan++
+
     if (jawabanku < jawaban) {
       hasil.textContent = "Too low!"
+      percobaan++;
+      hasil2.textContent = "Attempt: " + percobaan;
     }
     else if (jawabanku > jawaban) {
         hasil.textContent = "Too high!"
+        percobaan++;
+        hasil2.textContent = "Attempt: " + percobaan;
     }
-    
-    
+     else {
+        hasil.textContent = "Correct!";
+        hasil2.textContent = "Attempt: " + percobaan;
+        
 }
 
-hasil.textContent = "Correct!";
-hasil2.textContent = 'Attempt : ' + percobaan;
+
+}
+
