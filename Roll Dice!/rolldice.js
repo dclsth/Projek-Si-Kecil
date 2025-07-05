@@ -25,20 +25,21 @@ document.getElementById("button").onclick = function() {
     let value = Number(document.getElementById("input").value);
     console.log(value);
 
-    /*
+    
     for (let i = 0; i < value; i++){
 
     const hasil = Math.floor(Math.random()*6)+1;
     result.push(hasil);
-    imgs.push(diceimgs[hasil]);
+    imgs.push(`<img src="imgofdice/${hasil}.png">`);
     
     imgresult.innerHTML = imgs.join(``);
     diceimgs.width = 200;
    
     
-}*/
+}
     console.log(result);
-    
+    numbresult.textContent = `Your number is ${result.join(", ")}`;
+   /* 
     const interval = setInterval(() => {
         if (shake > 15){
             shake++;
@@ -53,7 +54,7 @@ document.getElementById("button").onclick = function() {
 
         console.log(randomnum);
         clearInterval(interval);
-        /*
+        
         for (let i = 0; i < value; i++){
 
         const hasil = Math.floor(Math.random()*6)+1;
@@ -63,12 +64,12 @@ document.getElementById("button").onclick = function() {
         imgresult.innerHTML = imgs.join(``);
 
         }
-*/
+
 
         
 
     }, 1000) 
-
+*/
 
 
 
