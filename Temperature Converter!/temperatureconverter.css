@@ -1,0 +1,69 @@
+#utama {
+    min-height: 95vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+body {
+    background-color: pink;
+}
+ 
+h2 {
+    font-size: 2.5em;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#nilai {
+    font-size: 1.75em;
+    margin-bottom: 20px;
+}
+
+#jenis1 {
+    margin: 15px;
+    padding: 5px;
+    font-size: 1.25em;
+    width: 150px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+}
+
+#jenis2{
+    margin-right: 15px;
+    padding: 5px;
+    font-size: 1.25em;
+    width: 150px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius:10px;
+}
+
+#hitung button {
+    border:none;
+    cursor: pointer;
+    font-size: 1.75em;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(237, 144, 159);
+    box-shadow: 4px 5px rgb(104, 102, 102);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#convert {
+    display:flex;
+    align-items: center;
+}
+
+#panah {
+    margin-right: 15px;
+    font-size: 1.75em;
+
+}
+
+#jawaban {
+    margin-top: 30px;
+    font-size: 2.5em;
+    font-family: 'Courier New', Courier, monospace;
+}

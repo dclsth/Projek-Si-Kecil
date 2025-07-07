@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<link rel="stylesheet"href="temperatureconverter.css">
+
+<html>
+    <head><title>Temperature Converter</title></head>
+    <body>
+        <div id="utama">
+            <h2>Temperature Converter</h2>
+            <br> 
+            <div id="hasil">
+                <input type="number" id="nilai" placeholder="Enter the temperature">
+            </div>
+            
+            <div id="convert">
+                <select id="jenis1">
+                    <option value="celcius">Celcius</option>
+                    <option value="fahrenheit">Fahrenheit</option>
+                    <option value="reamur">Reamur</option>
+                    <option value="kelvin">Kelvin</option>
+                </select>
+                <div id="panah"><b> → </b></div>
+                <select id="jenis2">
+                    <option value="celcius">Celcius</option>
+                    <option value="fahrenheit">Fahrenheit</option>
+                    <option value="reamur">Reamur</option>
+                    <option value="kelvin">Kelvin</option>
+                </select>
+            </div>
+            <div id="hitung"> <button><b>Calculate</b></button></div>
+            
+            <div id="jawaban"></div>
+        </div>
+        <script src="temperatureconverter.js"></script>
+    </body>
+</html>
